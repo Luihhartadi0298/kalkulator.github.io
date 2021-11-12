@@ -1,9 +1,9 @@
 body {
-	background: url("img.png");
+	background: url("gambar.jpg");
 }
 
 .container{
-	background-color: black;
+	background-color: gray;
 	position: absolute;
 	top: 50%;
 	transform: translateY(-50%);
@@ -16,9 +16,9 @@ body {
 	font-size: 30px;
 	margin: 2px;
 	border: none;
-	color: white;
+	color: black;
 	cursor: pointer;
-	background: grey;
+	background: white;
 }
 
 .button:hover{
@@ -52,14 +52,57 @@ body {
 	background: #008087;
 }
 
+.button-2{
+	width: 50px;
+	height: 50px;
+	font-size: 30px;
+	margin: 2px;
+	border: none;
+	color: white;
+	cursor: pointer;
+	background: green;
+}
+
+.button-2:hover{
+	width: 50px;
+	height: 50px;
+	font-size: 30px;
+	border: none;
+	color: white;
+	cursor: pointer;
+	background: #008087;
+}
+
+.button-3{
+	width: 50px;
+	height: 50px;
+	font-size: 30px;
+	margin: 2px;
+	border: none;
+	color: white;
+	cursor: pointer;
+	background: red;
+}
+
+.button-3:hover{
+	width: 50px;
+	height: 50px;
+	font-size: 30px;
+	border: none;
+	color: white;
+	cursor: pointer;
+	background: #008087;
+}
+
 .textarea{
 	width: 230px;
 	height: 50px;
+	padding-left: 5px;
 	border: none;
 	outline: none;
-	color: white;
+	color: red;
 	font-size: 30px;
 	text-align: center;
-	background-color: black ;
+	background-color: white;
 	opacity: .7;
 }
