@@ -1,108 +1,55 @@
-body {
-	background: url("gambar.jpg");
-}
+* {
+    margin: 0;
+    padding: 0;
+   }
 
-.container{
-	background-color: gray;
-	position: absolute;
-	top: 50%;
-	transform: translateY(-50%);
-	left: 500px;
-}
+   .main {
+    background-color: grey;
+    position: absolute;
+    padding: 10px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 5px;
+    box-shadow: 5px 4px 5px black;
+   }
 
-.button{
-	width: 50px;
-	height: 50px;
-	font-size: 30px;
-	margin: 2px;
-	border: none;
-	color: black;
-	cursor: pointer;
-	background: white;
-}
+   h2 {
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+   }
 
-.button:hover{
-	width: 50px;
-	height: 50px;
-	font-size: 30px;
-	border: none;
-	color: white;
-	cursor: pointer;
-	background: #008087;
-}
+   table {
+    width: 100%;
+   }
 
-.button-1{
-	width: 50px;
-	height: 50px;
-	font-size: 30px;
-	margin: 2px;
-	border: none;
-	color: white;
-	cursor: pointer;
-	background: orange;
-}
+   form input {
+    color: black;
+    background-color: green;
+    font-size: 25px;
+    margin: 5px;
+    padding: 5px;
+    height: 66px;
+    text-align: right;
+   }
 
-.button-1:hover{
-	width: 50px;
-	height: 50px;
-	font-size: 30px;
-	border: none;
-	color: white;
-	cursor: pointer;
-	background: #008087;
-}
+   table td input {
+    width : 100%;
+    color: black;
+    background-color : rgb(255, 255, 187);
+    padding : 5px;
+    font-size : 30px;
+    cursor : pointer;
+    border : 2px solid rgb(70, 68, 68);
+   }
 
-.button-2{
-	width: 50px;
-	height: 50px;
-	font-size: 30px;
-	margin: 2px;
-	border: none;
-	color: white;
-	cursor: pointer;
-	background: green;
-}
-
-.button-2:hover{
-	width: 50px;
-	height: 50px;
-	font-size: 30px;
-	border: none;
-	color: white;
-	cursor: pointer;
-	background: #008087;
-}
-
-.button-3{
-	width: 50px;
-	height: 50px;
-	font-size: 30px;
-	margin: 2px;
-	border: none;
-	color: white;
-	cursor: pointer;
-	background: red;
-}
-
-.button-3:hover{
-	width: 50px;
-	height: 50px;
-	font-size: 30px;
-	border: none;
-	color: white;
-	cursor: pointer;
-	background: #008087;
-}
-
-.textarea{
-	width: 230px;
-	height: 50px;
-	padding-left: 5px;
-	border: none;
-	outline: none;
-	color: red;
-	font-size: 30px;
-	text-align: center;
-	background-color: white;
-	opacity: .7;
-}
+   table td input:hover {   
+    width : 100%;
+    color: white;
+    background-color : #0887;
+    padding : 5px;
+    font-size : 30px;
+    cursor : pointer;
+    border : 2px solid white;
+   }
