@@ -1,22 +1,13 @@
-function insert(num){
-	document.form.textarea.value = document.form.textarea.value + num;
+var tampil = document.formAngka.isiText;
+function ins(num) {
+ tampil.value += num;
 }
-
-
-function persen(num){
-	document.form.textarea.value = document.form.textarea.value / "100";
+function samaDengan() {
+ tampil.value = eval(tampil.value);
 }
-
-function equal(){
-	var hasil = document. form.textarea.value;
-	document.form.textarea.value = eval(hasil);
+function bcksp() {
+ tampil.value = tampil.value.substr(0,tampil.value.length-1);
 }
-
-function clean(){
-	document.form.textarea.value = "";
-}
-
-function back(){
-	var hasil = document.form.textarea.value;
-	document.form.textarea.value = hasil.substring(0,hasil.length-1);
+function hapusAll() {
+ tampil.value = "";
 }
